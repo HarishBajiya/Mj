@@ -10,12 +10,12 @@
 
 const projects = [
     {
-        "id": 1,
-        "title": "Friday Finance Season 2",
-        "image": require("../assets/images/ffs2.jpg"),
-        "link": "https://youtu.be/7Av-H3xZSJQ",
+        "id" : 1,
+        "title" : "Samsung S7 FE tablet",
+        "image": require("../assets/images/samsung.jpg"),
+        "link": "https://youtu.be/50SBRBpGsoA",
         "category": "Commercial",
-        "Job": "2nd Unit Director of Photography & 1st Assistant Cinematographer",
+        "Job": "2nd Unit Director of Photography & Assistant Cinematographer",
     },
     {
         "id": 2,

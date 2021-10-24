@@ -77,7 +77,7 @@ export default {
     return {
       myAvatar: require('@/assets/images/a1.jpeg'),
       socialIcons,
-      drawer: false,
+      drawer: true,
       routes: [
         {link:'/', name:'HOME', icon: 'mdi-home'},
         {link:'/narrative', name:'NARRATIVE', icon: 'mdi-video'},
