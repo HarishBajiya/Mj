@@ -11,7 +11,7 @@
 const projects = [
     {
         "id": 0,
-        "title": "Friday Finance Season 2 - Hindustan Times",
+        "title": "Friday Finance Season 2 | Hindustan Times",
         "image": require("../assets/images/friday.jpg"),
         "link": "https://youtube.com/playlist?list=PL9wl9ZX1TMB5js4dsB2pAlm1A0LrqGeyi",
         "job": "2nd Unit Director of Photography & Assistant Cinematographer",
