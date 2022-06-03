@@ -1,8 +1,8 @@
-version: '3'
+version: "3"
 
 services:
-  portfolio:
+  mj-portfolio:
     ports:
-      - "2974:80"
+      - "2975:80" # Host:container
     restart: always
     build: .
