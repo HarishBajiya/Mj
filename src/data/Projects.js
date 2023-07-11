@@ -10,6 +10,13 @@
 
 const projects = [
     {
+        "title": "DECIM.L | Zakir Khan",
+        "image": require("https://drive.google.com/file/d/1Jtjcvo7f5-Rrbx7wFvvzF9HvzqMhC1FC/view?usp=sharing"),
+        "link": "https://youtu.be/kwGQpgeKrjI",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
         "id" : 1,
         "title" : "Samsung S7 FE tablet",
         "image": require("../assets/images/samsung.jpg"),
