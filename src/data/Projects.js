@@ -155,21 +155,7 @@ const projects = [
         "link": "https://www.youtube.com/embed/2EDgNnk2TT0",
         "category": "Commercial",
         "job": "Assistant Cinematographer",
-    },
-    {
-        "title": "Jab Hum Mile - Part 1 - Hunny Sharma",
-        "image": require("../assets/images/hs1.jpg"),
-        "link": "https://www.youtube.com/embed/uFN71rziKdc",
-        "category": "Web",
-        "job": "Director of Photography",
-    },
-    {
-        "title": "Jab Hum Mile - Part 2 - Hunny Sharma",
-        "image": require("../assets/images/hs2.jpg"),
-        "link": "https://www.youtube.com/embed/hyRkD0KHrLk",
-        "category": "Web",
-        "job": "Director of Photography",
-    },
+    }
 ]
 
 export default projects;
