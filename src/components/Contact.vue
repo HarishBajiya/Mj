@@ -11,9 +11,9 @@
                     <v-list-item-title class="headline mb-1">Email</v-list-item-title>
                     <v-list-item-subtitle>
                         Email me anytime at
-                        <a
-                            href="mailto:manoj@take2films.co.in" class="font-weight-bold white--text"
-                        >manoj@take2films.co.in</a>.
+                        <a target="_top" onclick="sendEmail();"
+                            href="mailto:bajiya.manoj26@gmail.com" class="font-weight-bold white--text"
+                        >bajiya.manoj26@gmail.com</a>
                     </v-list-item-subtitle>
                 </v-list-item-content>
             </v-list-item>
@@ -29,8 +29,8 @@
                     <v-list-item-subtitle>
                         I also have a Instagram, DM me if you have any questions.
                         <a
-                            href="https://www.instagram.com/dop_manojbajiya/" class="font-weight-bold white--text"
-                        >@dop_manojbajiya</a>
+                            href="https://www.instagram.com/dp_manojbajiya/" class="font-weight-bold white--text"
+                        >@dp_manojbajiya</a>
                     </v-list-item-subtitle>
                 </v-list-item-content>
             </v-list-item>
@@ -46,11 +46,13 @@
                     <v-list-item-subtitle>
                         You can ping me on Whatsapp
                         <a class="font-weight-bold white--text"
-                            href="https://api.whatsapp.com/send?phone==918107391945/"
-                        >+91 810 739 1945</a>
+                            href="https://wa.me/918107391945"
+                        >+91 XXXX XXXX 45</a>
                     </v-list-item-subtitle>
                 </v-list-item-content>
             </v-list-item>
+
+            <v-divider></v-divider>
 
             <v-list-item three-line>
                 <v-list-item-icon>
@@ -60,10 +62,10 @@
                     <v-list-item-title class="headline mb-1"> Address </v-list-item-title>
                     <v-list-item-subtitle>
                         Want to meet?
-                        <a href="https://www.google.com/maps/place/Take2+Films+%26+Equipments+Pvt.+Ltd./@28.500385,77.1870039,17z/data=!3m1!4b1!4m5!3m4!1s0x390d02ee96b373b5:0x6f9a3c3370cfd3a7!8m2!3d28.500385!4d77.1891926"
+                        <span
                         class="font-weight-bold white--text">
-                        A-178, Upper Ground Street, No. 22, Chattarpur Enclave Phase 2, Chhatarpur, Delhi 110074
-                        </a>
+                        Mumbai, Maharashtra, India
+                    </span>
                     </v-list-item-subtitle>
                 </v-list-item-content>
             </v-list-item>
@@ -77,7 +79,14 @@
 export default {
     data() {
         return {};
+    },
+
+    methods: {
+        sendEmail(){        
+            window.location = "mailto:bajiya.manoj26@gmail.com";
+        }
     }
+
 };
 </script>
 

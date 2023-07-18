@@ -47,7 +47,7 @@ const projects = [
     {
         "id": 5,
         "title": "Neighbour's Kitchen | Hindustan Times ",
-        "image": require("../assets/images/ht.png"),
+        "image": require("../assets/images/ht.jpeg"),
         "link": "https://www.youtube.com/watch?v=WLBKYiyG3ng",
         "category": "Web",
         "job": "Assistant Cinematographer",

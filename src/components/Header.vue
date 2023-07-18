@@ -23,10 +23,12 @@
             </v-img>
           </v-avatar>
           <div class="pt-5 name">
-            <h1 class="white--text ">MANOJ BAJIYA  </h1>
-            <h3 class="grey--text">Cinematographer </h3>
+            <h1 class="white--text ">MJ</h1>
+            <h3 class="grey--text">Filmmaker</h3>
+            <h5 class="grey--text">Cinematographer</h5>
           </div>
         </v-flex>
+        <div class="flex-gap"></div>
       <v-list v-for="(route, index) in routes" :key="index">
         <v-list-item-group>
           <v-list-item router :to="route.link">
@@ -39,6 +41,7 @@
           </v-list-item>
         </v-list-item-group>
       </v-list>
+      <div class="flex-gap"></div>
       <div class="text-center ma-12 pt-12">
                 <!-- Now for each item, we create a new icon -->
                 <div class="my-2">
@@ -80,9 +83,9 @@ export default {
       drawer: true,
       routes: [
         {link:'/', name:'HOME', icon: 'mdi-home'},
+        {link:'/web', name:'WEB', icon: 'mdi-video-account'},
         {link:'/narrative', name:'NARRATIVE', icon: 'mdi-video'},
-        {link:'/web', name:'Web', icon: 'mdi-video-account'},
-        {link:'/Bio', name:'BIO', icon: 'mdi-account'},
+        {link:'/bio', name:'BIO', icon: 'mdi-account'},
         {link:'/contact', name:'CONTACT', icon: 'mdi-phone'},
       ]
     }
@@ -102,6 +105,10 @@ export default {
 .name{
   letter-spacing: 5px;
   word-spacing: 5px;
+}
+
+.flex-gap{
+  min-height: 10vh;
 }
 
   .img {

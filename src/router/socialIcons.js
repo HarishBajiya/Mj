@@ -14,12 +14,12 @@ const socialIcons = [
     },
     {
         "name": "Instagram",
-        "link": "https://www.instagram.com/dop_manojbajiya/",
+        "link": "https://www.instagram.com/dp_manojbajiya/",
         "icon": "mdi-instagram"
     },
     {
         "name": "Whatsapp",
-        "link": "https://api.whatsapp.com/send?phone==918107391945/",
+        "link": "https://wa.me/918107391945",
         "icon": "mdi-whatsapp"
     },
 ];

@@ -1,32 +1,26 @@
 <template>
-    <div>
-        <v-container fluid class="container">
-            <v-row  v-masonry="'my_thing'" 
-                webkit-origin-left="true"
-                webkit-horizontal-order="true"
-                webkit-transition-duration="0.3s"
-                webkit-stagger="0.03s"
-                item-selector=".item">
-                <v-col class="item"
-                    v-for="(project, index) in projects" 
-                    :key="index" cols="12" md="6" >
-                    <v-card  height="100%" width="100%" color="transparent" 
-                    elevation="0" :href="project.link">
-                        <v-img  :src="project.image"  @load="imageLoaded" style="opacity: 0.8"></v-img>
-            <!-- <template v-slot:placeholder>
-                                <v-row class="fill-height" align="center" justify="center">
-                                    <v-progress-circular indeterminate color="grey">
-                                    </v-progress-circular>
-                                </v-row>
-                            </template> -->
-                        <v-card-text> 
-                            <span class="font-weight-bold title"> {{project.title}} </span>  {{project.Job}}
-                        </v-card-text>
-                    </v-card>
-                </v-col>
-            </v-row>
-        </v-container>
-    </div>
+    <div id="app">
+    <v-container fluid class="container">
+      <v-row  v-masonry="'my_thing'" 
+                >
+        <v-col  v-for="(project, index) in projects" :key="index" cols="12" md="6" class="video-column">
+          <v-card color="transparent" class="video-card" elevation="0"
+            :href="project.link">
+              <iframe
+                :src= "project.link"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                @load="imageLoaded"
+                class="video-player"
+              />
+            <v-card-text> <span class="font-weight-bold title"> {{project.title}} </span>  {{project.job}}</v-card-text>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+  </div>
 </template>
 
 <script>
@@ -38,11 +32,10 @@ export default {
     data(){
         return{
             projects,
-            imagesloaded: 0,
         }
     },
     mounted(){
-        this.repaint()
+        this.repaint();
     },
     watch: {
         projects: function(){
@@ -50,19 +43,11 @@ export default {
         }
     },
     methods: {
-        // repaint(){
-        //     setTimeout(() => {
-        //         this.$redrawVueMasonry()
-        //     }, 2000);
-        // },
-        imageLoaded() {
-            this.imagesloaded += 1
-            this.$redrawVueMasonry('my_thing')
-            if (this.imagesloaded === this.projects.length()) {
-                this.$redrawVueMasonry('my_thing')
-            }
-            
-        }
+        repaint(){
+            setTimeout(() => {
+                this.$redrawVueMasonry()
+            }, 900);
+        },
     }
 }
 </script>
@@ -71,13 +56,51 @@ export default {
 
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
+#app{
+    font-family: 'Cabin', sans-serif;
+}
+
+.video-column {
+    position: absolute;
+    min-height: auto;
+}
+
+.video-card {
+    width: 100%;
+}
+
+.video-player {
+    position: relative;
+    width: 100%;
+    height: 420px;
+}
+
 .container{
     display: grid;
 }
 
-.id{
-  font-family: 'Cabin', sans-serif;
+@media only screen and (max-width: 1200px) {
+    .video-player {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
 }
 
+@media only screen and (max-width: 1200px) {
+    .video-player {
+    position: relative;
+    width: 100%;
+    height: 320px;
+}
+}
+
+@media only screen and (max-width: 1600px) {
+    .video-player {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+}
 
 </style>
