@@ -28,7 +28,6 @@
             <h5 class="grey--text">Cinematographer</h5>
           </div>
         </v-flex>
-        <div class="flex-gap"></div>
       <v-list v-for="(route, index) in routes" :key="index">
         <v-list-item-group>
           <v-list-item router :to="route.link">
