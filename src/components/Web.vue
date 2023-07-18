@@ -73,34 +73,41 @@ export default {
     position: relative;
     width: 100%;
     height: 420px;
+    overflow: hidden;
 }
 
 .container{
     display: grid;
 }
 
-@media only screen and (max-width: 1200px) {
-    .video-player {
-    position: relative;
-    width: 100%;
-    height: 300px;
-}
-}
-
-@media only screen and (max-width: 1200px) {
-    .video-player {
-    position: relative;
-    width: 100%;
-    height: 320px;
-}
-}
-
 @media only screen and (max-width: 1600px) {
     .video-player {
-    position: relative;
-    width: 100%;
-    height: 350px;
+        height: 350px;
+    }
 }
+
+@media only screen and (max-width: 1200px) {
+    .video-player {
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .video-player {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .video-player {
+        height: 370px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .video-player {
+        height: 250px;
+    }
 }
 
 </style>
