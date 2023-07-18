@@ -16,18 +16,14 @@
     <v-navigation-drawer app v-model="drawer" id="mainDrawer">
        <v-layout
                 column>
-
         <v-flex class="ma-5 text-center">
-          <v-avatar size="100">
-            <v-img :src = "myAvatar">
-            </v-img>
-          </v-avatar>
           <div class="pt-5 name">
             <h1 class="white--text ">MJ</h1>
             <h3 class="grey--text">Filmmaker</h3>
             <h5 class="grey--text">Cinematographer</h5>
           </div>
         </v-flex>
+        <div class="mt-10">
       <v-list v-for="(route, index) in routes" :key="index">
         <v-list-item-group>
           <v-list-item router :to="route.link">
@@ -40,7 +36,8 @@
           </v-list-item>
         </v-list-item-group>
       </v-list>
-      <div class="flex-gap"></div>
+      </div>
+
       <div class="text-center ma-12 pt-12">
                 <!-- Now for each item, we create a new icon -->
                 <div class="my-2">
@@ -55,7 +52,7 @@
                     </a>
                 </div>
             </div>
-            <div class="text-center pt-2">
+            <div class="text-center pt-2 pb-2">
               <div>
               Made with ❤️ by 
               </div>
@@ -77,7 +74,6 @@ import socialIcons from "../router/socialIcons";
 export default {
   data () {
     return {
-      myAvatar: require('@/assets/images/a1.jpeg'),
       socialIcons,
       drawer: true,
       routes: [
@@ -99,6 +95,8 @@ export default {
   font-family: 'Cabin', sans-serif;
   letter-spacing: 2px;
   word-spacing: 5px;
+  justify-content: center;
+  align-content: center;
 }
 
 .name{
