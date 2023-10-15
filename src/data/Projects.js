@@ -59,6 +59,27 @@ const projects = [
         "job": "Assistant Cinematographer"
     },
     {
+        "title": "Tidy Sleep Baby Nest | Tidy Sleep",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/uSyNijZgV9s?si=Z640cN3VdV52Uye-",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Tidy Sleep Cotton Muslin Swaddle | Tidy Sleep",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/m8Nvh3grbIk?si=Oh5Q0IbuynjcTxCg",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Tidy Sleep Baby Gadda Set | Tidy Sleep",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/yMk2xCMwgYs?si=nRemKCpu38K-Y6Gv",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
         "title": "Samsung Galaxy Z Fold 3 5G",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/U259LvoQtew",
