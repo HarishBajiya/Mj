@@ -8,7 +8,7 @@
             :href="project.link">
               <!-- <v-card-title>{{item.title}}</v-card-title> -->
             <v-img :src="project.image" @load="this.$redrawVueMasonry()" style="opacity: 0.8"></v-img>
-            <v-card-text> <span class="font-weight-bold title"> {{project.title}} </span>  {{project.job}}</v-card-text>
+            <v-card-text> <div> <span class="font-weight-bold title"> {{project.title}} </span> </div>  {{project.job}}</v-card-text>
           </v-card>
         </v-col>
       </v-row>
