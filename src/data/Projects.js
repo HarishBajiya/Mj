@@ -59,6 +59,27 @@ const projects = [
         "job": "Assistant Cinematographer"
     },
     {
+        "title": "Introducing HealthifySnap | HealthifyMe",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/MZbYk_V9m7s?si=yNrP_DgnLhYCgntB",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "Introducing HealthifySnap | HealthifyMe",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/xTDEkwzkuFw?si=LEZXrOO3DkwdTg4D",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "Introducing HealthifySnap | HealthifyMe",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/VOEHE_PouYE?si=gPZmtlTj5scs2yMk",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
         "title": "Tidy Sleep Baby Nest | Tidy Sleep",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/uSyNijZgV9s?si=Z640cN3VdV52Uye-",
