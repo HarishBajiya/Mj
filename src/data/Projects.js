@@ -10,6 +10,13 @@
 
 const projects = [
     {
+        "title": "Bikano",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/kaFwT4y-WUQ?si=Ycxbj2x5rbmDE0na",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
         "title": "DECIM.L | Zakir Khan",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/kwGQpgeKrjI",
