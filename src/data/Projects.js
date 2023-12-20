@@ -17,6 +17,13 @@ const projects = [
         "job": "Director of Photography"
     },
     {
+        "title": "Mastercard",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/-6CidlEhYfM?si=wi3VMwM90DvhE7Jk",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
         "title": "DECIM.L | Zakir Khan",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/kwGQpgeKrjI",
@@ -64,6 +71,13 @@ const projects = [
         "link": "https://www.youtube.com/embed/Z3CtgtBk_eI",
         "category": "Commercial",
         "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "13Karat",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/13tPyS4AuLQ?si=nQvq9W3CuY0DIyxw",
+        "category": "Commercial",
+        "job": "2nd Unit Director of Photography"
     },
     {
         "title": "Introducing HealthifySnap | HealthifyMe",
