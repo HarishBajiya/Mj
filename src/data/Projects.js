@@ -10,6 +10,20 @@
 
 const projects = [
     {
+        "title": "13Karat",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/13tPyS4AuLQ?si=nQvq9W3CuY0DIyxw",
+        "category": "Commercial",
+        "job": "2nd Unit Director of Photography"
+    },
+    {
+        "title": "Mastercard",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/-6CidlEhYfM?si=wi3VMwM90DvhE7Jk",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
         "title": "Bikano",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/kaFwT4y-WUQ?si=Ycxbj2x5rbmDE0na",
