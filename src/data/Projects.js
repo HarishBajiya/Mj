@@ -10,6 +10,27 @@
 
 const projects = [
     {
+        "title": "13Karat",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/13tPyS4AuLQ?si=nQvq9W3CuY0DIyxw",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "13Karat",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/a7jfzEvEdkA?si=Jq0RS9ylnE9w2h93",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "13Karat",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/zIV45pjtEpY?si=cp30t3Dy1JOwQ88W",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
         "title": "Bikano",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/kaFwT4y-WUQ?si=Ycxbj2x5rbmDE0na",
@@ -21,7 +42,7 @@ const projects = [
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/-6CidlEhYfM?si=wi3VMwM90DvhE7Jk",
         "category": "Commercial",
-        "job": "Assistant Cinematographer"
+        "job": "2nd Unit Director of Photography"
     },
     {
         "title": "DECIM.L | Zakir Khan",
@@ -71,13 +92,6 @@ const projects = [
         "link": "https://www.youtube.com/embed/Z3CtgtBk_eI",
         "category": "Commercial",
         "job": "Assistant Cinematographer"
-    },
-    {
-        "title": "13Karat",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/13tPyS4AuLQ?si=nQvq9W3CuY0DIyxw",
-        "category": "Commercial",
-        "job": "2nd Unit Director of Photography"
     },
     {
         "title": "Introducing HealthifySnap | HealthifyMe",
