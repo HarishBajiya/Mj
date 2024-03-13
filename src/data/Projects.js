@@ -10,6 +10,34 @@
 
 const projects = [
     {
+        "title": "Blanko Perfumes",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/Pjttso4TAns?si=tc3NV599TLQPT1yS",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "Blanko Perfumes",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/4-2PpiMDW0Q?si=pROpboXkOEBhFF2V",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "Blanko Perfumes",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/syYWqpL1j_E?si=a9H9kjnyw7WnDGpP",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "Blanko Perfumes",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/q-958qAxNyE?si=ghXYRr33LxYQei4m",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
         "title": "13Karat",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/13tPyS4AuLQ?si=nQvq9W3CuY0DIyxw",
