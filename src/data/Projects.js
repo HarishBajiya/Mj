@@ -10,6 +10,13 @@
 
 const projects = [
     {
+        "title": "Visit Dubai",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/-_-myAdvDaY?si=KOWulofrN070hxgv",
+        "category": "Commercial",
+        "job": "Cinematographer"
+    },
+    {
         "title": "Blanko Perfumes",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/Pjttso4TAns?si=tc3NV599TLQPT1yS",
