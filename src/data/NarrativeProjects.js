@@ -10,6 +10,12 @@
 
 const projects = [
     {
+        "title": "Restoration of Zooni : In conversation with Muzaffar Ali",
+        "image": require("../assets/images/zoomi.jpg"),
+        "link": "https://www.youtube.com/watch?v=mGfEigAQtDs&ab_channel=AnagramEntertainment",
+        "job": "Director of Photography",
+    },
+    {
         "title": "INTOXICATED - DEEP KALSI x RAP DEMON x AGSY | TUNNEL VISION | KALAMKAAR",
         "image": require("../assets/images/intoxicated.jpg"),
         "link": "https://youtu.be/QU-KoMVv5z0?si=G9eeMpAMHiBKofMG",
