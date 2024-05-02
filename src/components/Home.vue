@@ -33,10 +33,10 @@ export default {
       return {
         slides: [
           {
-            src: require("../assets/images/hero1.jpg"),
+            src: require("../assets/images/hero2.jpg"),
           },
           {
-            src: require("../assets/images/hero2.jpg")
+            src: require("../assets/images/hero1.jpg")
           },
           {
             src: require("../assets/images/hero3.jpg")
