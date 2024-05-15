@@ -10,6 +10,20 @@
 
 const projects = [
     {
+        "title": "Samsung Galaxy A55 5G",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/hcow3JX8Ef0?si=UrhnKSTWzrpccJeY",
+        "category": "Commercial",
+        "job": "Cinematographer"
+    },
+    {
+        "title": "Samsung Galaxy A35 5G",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/a4_i1DR3OPI?si=4WUi2Gdhbr2TylRX",
+        "category": "Commercial",
+        "job": "Cinematographer"
+    },
+    {
         "title": "Visit Dubai",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/-_-myAdvDaY?si=KOWulofrN070hxgv",
