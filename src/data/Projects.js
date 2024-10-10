@@ -10,6 +10,20 @@
 
 const projects = [
     {
+        "title": "Hindustan Times Celebrates 100 Years",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/rqbpR5O9gD8?si=UQJTI6rGHAkiRlL5",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Dabur India | World Heart Day",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/TbyZoM7GsPk?si=a0aX9ySthJlYtLD3",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
         "title": "Samsung Galaxy A35 5G",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/a4_i1DR3OPI?si=4WUi2Gdhbr2TylRX",
