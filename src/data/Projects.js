@@ -101,21 +101,21 @@ const projects = [
         "job": "Director of Photography"
     },
     {
-        "title" : "Samsung S7 FE tablet",
+        "title": "Samsung S7 FE tablet",
         "image": require("../assets/images/samsung.jpg"),
         "link": "https://www.youtube.com/embed/50SBRBpGsoA",
         "category": "Commercial",
         "job": "Director of Photography",
     },
     {
-        "title" : "MOY Jewellery Brand",
+        "title": "MOY Jewellery Brand",
         "image": require("../assets/images/samsung.jpg"),
         "link": "https://www.youtube.com/embed/fLwiqAgEGQ4",
         "category": "Commercial",
         "job": "Director of Photography",
     },
     {
-        "title" : "MOY Jewellery Brand",
+        "title": "MOY Jewellery Brand",
         "image": require("../assets/images/samsung.jpg"),
         "link": "https://www.youtube.com/embed/2Q2CaPLHCqM",
         "category": "Commercial",
@@ -227,14 +227,14 @@ const projects = [
         "job": "Assistant Cinematographer"
     },
     {
-        "title" : "Zupee Gaming App",
+        "title": "Zupee Gaming App",
         "image": require("../assets/images/samsung.jpg"),
         "link": "https://www.youtube.com/embed/BX_WM_aFupI",
         "category": "Commercial",
         "job": "Assistant Cinematographer",
     },
     {
-        "title" : "Zupee Gaming App",
+        "title": "Zupee Gaming App",
         "image": require("../assets/images/samsung.jpg"),
         "link": "https://www.youtube.com/embed/cyO3fyxIcck",
         "category": "Commercial",

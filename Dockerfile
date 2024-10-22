@@ -10,6 +10,9 @@ WORKDIR /root/portfolio
 # Copy the package files first, to levverage layered caching
 COPY package*.json ./
 
+# Allow legacy openssl in NODE_OPTIONS
+ENV NODE_OPTIONS=--openssl-legacy-provider
+
 # Install the NPM deps
 RUN npm install --no-optional && npm cache clean --force
 
