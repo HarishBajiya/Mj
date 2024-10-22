@@ -28,70 +28,21 @@ const projects = [
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/a4_i1DR3OPI?si=4WUi2Gdhbr2TylRX",
         "category": "Commercial",
-        "job": "Cinematographer"
+        "job": "Director of Photography"
     },
     {
         "title": "Samsung Galaxy A55 5G",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/hcow3JX8Ef0?si=UrhnKSTWzrpccJeY",
         "category": "Commercial",
-        "job": "Cinematographer"
+        "job": "Director of Photography"
     },
     {
         "title": "Visit Dubai",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/-_-myAdvDaY?si=KOWulofrN070hxgv",
         "category": "Commercial",
-        "job": "Cinematographer"
-    },
-    {
-        "title": "Blanko Perfumes",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/Pjttso4TAns?si=tc3NV599TLQPT1yS",
-        "category": "Commercial",
-        "job": "Assistant Cinematographer"
-    },
-    {
-        "title": "Blanko Perfumes",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/4-2PpiMDW0Q?si=pROpboXkOEBhFF2V",
-        "category": "Commercial",
-        "job": "Assistant Cinematographer"
-    },
-    {
-        "title": "Blanko Perfumes",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/syYWqpL1j_E?si=a9H9kjnyw7WnDGpP",
-        "category": "Commercial",
-        "job": "Assistant Cinematographer"
-    },
-    {
-        "title": "Blanko Perfumes",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/q-958qAxNyE?si=ghXYRr33LxYQei4m",
-        "category": "Commercial",
-        "job": "Assistant Cinematographer"
-    },
-    {
-        "title": "13Karat",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/13tPyS4AuLQ?si=nQvq9W3CuY0DIyxw",
-        "category": "Commercial",
-        "job": "Assistant Cinematographer"
-    },
-    {
-        "title": "13Karat",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/a7jfzEvEdkA?si=Jq0RS9ylnE9w2h93",
-        "category": "Commercial",
-        "job": "Assistant Cinematographer"
-    },
-    {
-        "title": "13Karat",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/zIV45pjtEpY?si=cp30t3Dy1JOwQ88W",
-        "category": "Commercial",
-        "job": "Assistant Cinematographer"
+        "job": "Director of Photography"
     },
     {
         "title": "Bikano",
@@ -106,6 +57,83 @@ const projects = [
         "link": "https://www.youtube.com/embed/-6CidlEhYfM?si=wi3VMwM90DvhE7Jk",
         "category": "Commercial",
         "job": "2nd Unit Director of Photography"
+    },
+    {
+        "title": "Samsung Galaxy Z Flip 3 5G",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/aFIPoslKo1g",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Samsung Galaxy Z Flip 3 5G",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/Dbmbvuq-awY",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Samsung Galaxy Z Flip 3 5G",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/QKTNRXvN_Yg",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Samsung Galaxy Z Fold 3 5G",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/U259LvoQtew",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title" : "Samsung S7 FE tablet",
+        "image": require("../assets/images/samsung.jpg"),
+        "link": "https://www.youtube.com/embed/50SBRBpGsoA",
+        "category": "Commercial",
+        "job": "Director of Photography",
+    },
+    {
+        "title" : "MOY Jewellery Brand",
+        "image": require("../assets/images/samsung.jpg"),
+        "link": "https://www.youtube.com/embed/fLwiqAgEGQ4",
+        "category": "Commercial",
+        "job": "Director of Photography",
+    },
+    {
+        "title" : "MOY Jewellery Brand",
+        "image": require("../assets/images/samsung.jpg"),
+        "link": "https://www.youtube.com/embed/2Q2CaPLHCqM",
+        "category": "Commercial",
+        "job": "Director of Photography",
+    },
+    {
+        "title": "Hyatt Regency",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/l20jQEAnKhY",
+        "category": "Commercial",
+        "job": "Director of Photography",
+    },
+    {
+        "title": "Tidy Sleep Baby Nest | Tidy Sleep",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/uSyNijZgV9s?si=Z640cN3VdV52Uye-",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Tidy Sleep Cotton Muslin Swaddle | Tidy Sleep",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/m8Nvh3grbIk?si=Oh5Q0IbuynjcTxCg",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Tidy Sleep Baby Gadda Set | Tidy Sleep",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/yMk2xCMwgYs?si=nRemKCpu38K-Y6Gv",
+        "category": "Commercial",
+        "job": "Director of Photography"
     },
     {
         "title": "DECIM.L | Zakir Khan",
@@ -157,95 +185,32 @@ const projects = [
         "job": "Assistant Cinematographer"
     },
     {
-        "title": "Introducing HealthifySnap | HealthifyMe",
+        "title": "Blanko Perfumes",
         "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/MZbYk_V9m7s?si=yNrP_DgnLhYCgntB",
+        "link": "https://www.youtube.com/embed/Pjttso4TAns?si=tc3NV599TLQPT1yS",
         "category": "Commercial",
         "job": "Assistant Cinematographer"
     },
     {
-        "title": "Introducing HealthifySnap | HealthifyMe",
+        "title": "Blanko Perfumes",
         "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/xTDEkwzkuFw?si=LEZXrOO3DkwdTg4D",
+        "link": "https://www.youtube.com/embed/4-2PpiMDW0Q?si=pROpboXkOEBhFF2V",
         "category": "Commercial",
         "job": "Assistant Cinematographer"
     },
     {
-        "title": "Introducing HealthifySnap | HealthifyMe",
+        "title": "Blanko Perfumes",
         "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/VOEHE_PouYE?si=gPZmtlTj5scs2yMk",
+        "link": "https://www.youtube.com/embed/syYWqpL1j_E?si=a9H9kjnyw7WnDGpP",
         "category": "Commercial",
         "job": "Assistant Cinematographer"
     },
     {
-        "title": "Tidy Sleep Baby Nest | Tidy Sleep",
+        "title": "Blanko Perfumes",
         "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/uSyNijZgV9s?si=Z640cN3VdV52Uye-",
+        "link": "https://www.youtube.com/embed/q-958qAxNyE?si=ghXYRr33LxYQei4m",
         "category": "Commercial",
-        "job": "Director of Photography"
-    },
-    {
-        "title": "Tidy Sleep Cotton Muslin Swaddle | Tidy Sleep",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/m8Nvh3grbIk?si=Oh5Q0IbuynjcTxCg",
-        "category": "Commercial",
-        "job": "Director of Photography"
-    },
-    {
-        "title": "Tidy Sleep Baby Gadda Set | Tidy Sleep",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/yMk2xCMwgYs?si=nRemKCpu38K-Y6Gv",
-        "category": "Commercial",
-        "job": "Director of Photography"
-    },
-    {
-        "title": "Samsung Galaxy Z Fold 3 5G",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/U259LvoQtew",
-        "category": "Commercial",
-        "job": "Cinematographer"
-    },
-    {
-        "title": "Samsung Galaxy Z Flip 3 5G",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/aFIPoslKo1g",
-        "category": "Commercial",
-        "job": "Cinematographer"
-    },
-    {
-        "title": "Samsung Galaxy Z Flip 3 5G",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/Dbmbvuq-awY",
-        "category": "Commercial",
-        "job": "Cinematographer"
-    },
-    {
-        "title": "Samsung Galaxy Z Flip 3 5G",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/QKTNRXvN_Yg",
-        "category": "Commercial",
-        "job": "Cinematographer"
-    },
-    {
-        "title" : "Samsung S7 FE tablet",
-        "image": require("../assets/images/samsung.jpg"),
-        "link": "https://www.youtube.com/embed/50SBRBpGsoA",
-        "category": "Commercial",
-        "job": "Cinematographer",
-    },
-    {
-        "title" : "MOY Jewellery Brand",
-        "image": require("../assets/images/samsung.jpg"),
-        "link": "https://www.youtube.com/embed/2Q2CaPLHCqM",
-        "category": "Commercial",
-        "job": "Cinematographer",
-    },
-    {
-        "title" : "MOY Jewellery Brand",
-        "image": require("../assets/images/samsung.jpg"),
-        "link": "https://www.youtube.com/embed/fLwiqAgEGQ4",
-        "category": "Commercial",
-        "job": "Cinematographer",
+        "job": "Assistant Cinematographer"
     },
     {
         "title" : "Zupee Gaming App",
@@ -262,11 +227,25 @@ const projects = [
         "job": "Assistant Cinematographer",
     },
     {
-        "title": "Hyatt Regency",
+        "title": "13Karat",
         "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/l20jQEAnKhY",
+        "link": "https://www.youtube.com/embed/13tPyS4AuLQ?si=nQvq9W3CuY0DIyxw",
         "category": "Commercial",
-        "job": "Director of Photography",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "13Karat",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/a7jfzEvEdkA?si=Jq0RS9ylnE9w2h93",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "13Karat",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/zIV45pjtEpY?si=cp30t3Dy1JOwQ88W",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
     },
     {
         "title": "MG Hector Plus",
@@ -295,6 +274,27 @@ const projects = [
         "link": "https://www.youtube.com/embed/2EDgNnk2TT0",
         "category": "Commercial",
         "job": "Assistant Cinematographer",
+    },
+    {
+        "title": "Introducing HealthifySnap | HealthifyMe",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/MZbYk_V9m7s?si=yNrP_DgnLhYCgntB",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "Introducing HealthifySnap | HealthifyMe",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/xTDEkwzkuFw?si=LEZXrOO3DkwdTg4D",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "Introducing HealthifySnap | HealthifyMe",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/VOEHE_PouYE?si=gPZmtlTj5scs2yMk",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
     }
 ]
 
