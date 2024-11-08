@@ -10,6 +10,20 @@
 
 const projects = [
     {
+        "title": "The Impossible Show: Ritesh Agarwal Uncovers Remarkable Tales of Bharat’s Superheroes",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/GXoIwTV6Rug?si=WPQVB2_DNuCNpi1N",
+        "category": "Commercial",
+        "job": "Cinematographer"
+    },
+    {
+        "title": "#PehleWaliDiwali With TECNO Mobile India | Stop At Nothing",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/K3Zp3nysdT8?si=199n9Z-ethK9Qn_A",
+        "category": "Commercial",
+        "job": "Cinematographer"
+    },
+    {
         "title": "Hindustan Times Celebrates 100 Years",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/rqbpR5O9gD8?si=UQJTI6rGHAkiRlL5",
