@@ -22,6 +22,9 @@ COPY . ./
 # Build the dist
 RUN npm run build
 
+# DEPLOY THE NGINX conf file as default APLINE config returns everything as a 404
+RUN cp /root/portfolio/server.conf /etc/nginx/conf.d/default.conf
+
 # Copy built files to NGINX htdocs directory
 RUN rm -rf /usr/share/nginx/html/*
 RUN cp -rf /root/portfolio/dist/* /usr/share/nginx/html/
