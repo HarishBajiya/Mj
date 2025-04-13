@@ -381,6 +381,7 @@ export default {
   }
 }
 
+
 @media (max-width: 600px) {
   .overlay-content h3 {
     font-size: 0.75rem !important;
