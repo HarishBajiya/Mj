@@ -372,12 +372,23 @@ export default {
   }
   
   .overlay-content h3 {
-    font-size: 1rem !important;
-    line-height: 1.4 !important;
+    font-size: 0.8rem !important;
+    line-height: 1.2 !important;
   }
   
   .overlay-content h6 {
-    font-size: 0.875rem !important;
+    font-size: 0.65rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .overlay-content h3 {
+    font-size: 0.75rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  .overlay-content h6 {
+    font-size: 0.6rem !important;
   }
 }
 </style>
