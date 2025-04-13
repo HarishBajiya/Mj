@@ -65,7 +65,7 @@ export default {
 
 .v-btn:hover {
     transform: scale(1.1);
-    background-color:#006064;
+    background-color:#F8D8A8;
     border: none;
 }
 

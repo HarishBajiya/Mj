@@ -48,7 +48,7 @@
                        :title="socialIcon.name"
                        target="_blank"
                     >
-                        <v-icon size="30" color="#006064">{{ socialIcon.icon }}</v-icon>
+                        <v-icon size="30" color="#F8D8A8">{{ socialIcon.icon }}</v-icon>
                     </a>
                 </div>
             </div>
@@ -59,7 +59,7 @@
               <a
                 href="https://harishbajiya.me"
                 class="text-decoration-none font-weight-black"
-                style="color: #006064"
+                style="color: #F8D8A8"
                 >HARISH BAJIYA</a>
             </div>
        </v-layout>
@@ -78,8 +78,7 @@ export default {
       drawer: true,
       routes: [
         {link:'/', name:'HOME', icon: 'mdi-home'},
-        {link:'/web', name:'WEB', icon: 'mdi-video-account'},
-        {link:'/narrative', name:'NARRATIVE', icon: 'mdi-video'},
+        {link:'/my-work', name:'MY WORK', icon: 'mdi-movie-play'},
         {link:'/bio', name:'BIO', icon: 'mdi-account'},
         {link:'/contact', name:'CONTACT', icon: 'mdi-phone'},
       ]

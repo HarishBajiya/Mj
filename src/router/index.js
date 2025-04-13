@@ -11,14 +11,9 @@ const routes = [
     component: () => import('../components/Home')
   },
   {
-    path: '/narrative',
-    name: 'Narrative',
-    component: () => import('../components/Narrative')
-  },
-  {
-    path: '/web',
-    name: 'Web',
-    component: () => import('../components/Web')
+    path: '/my-work',
+    name: 'MyWork',
+    component: () => import('../components/MyWork')
   },
   {
     path: '/bio',

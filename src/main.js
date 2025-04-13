@@ -2,14 +2,13 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import vuetify from './plugins/vuetify'
-import { VueMasonryPlugin} from "vue-masonry"
+import VueYoutube from 'vue-youtube'
 
 Vue.config.productionTip = false
-Vue.use(VueMasonryPlugin);
+Vue.use(VueYoutube)
 
 new Vue({
   router,
   vuetify,
-  VueMasonryPlugin,
   render: h => h(App)
 }).$mount('#app')

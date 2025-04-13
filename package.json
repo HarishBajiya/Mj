@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -12,6 +12,7 @@
     "vue": "^2.6.11",
     "vue-masonry": "^0.13.0",
     "vue-router": "^3.2.0",
+    "vue-youtube": "^1.4.0",
     "vuetify": "^2.4.0"
   },
   "devDependencies": {

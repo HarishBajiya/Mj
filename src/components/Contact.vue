@@ -4,7 +4,7 @@
         <v-card class="contactCard" outlined>
             <v-list-item three-line>
                  <v-list-item-icon >
-                         <v-icon size="35" color="#006064"> mdi-gmail </v-icon>
+                         <v-icon size="35" color="#F8D8A8"> mdi-gmail </v-icon>
                     </v-list-item-icon>
                 <v-list-item-content>
                    
@@ -20,9 +20,10 @@
 
             <v-divider></v-divider>
 
+
             <v-list-item three-line>
                 <v-list-item-icon>
-                         <v-icon size="35" color="#006064"> mdi-instagram </v-icon>
+                         <v-icon size="35" color="#F8D8A8"> mdi-instagram </v-icon>
                     </v-list-item-icon>
                 <v-list-item-content>
                     <v-list-item-title class="headline mb-1">Instagram</v-list-item-title>
@@ -39,7 +40,7 @@
 
             <v-list-item three-line>
                 <v-list-item-icon >
-                         <v-icon size="35" color="#006064"> mdi-whatsapp </v-icon>
+                         <v-icon size="35" color="#F8D8A8"> mdi-whatsapp </v-icon>
                     </v-list-item-icon>
                 <v-list-item-content>
                     <v-list-item-title class="headline mb-1"> Whatsapp </v-list-item-title>
@@ -56,7 +57,7 @@
 
             <v-list-item three-line>
                 <v-list-item-icon>
-                         <v-icon size="35" color="#006064"> mdi-office-building-marker </v-icon>
+                         <v-icon size="35" color="#F8D8A8"> mdi-office-building-marker </v-icon>
                     </v-list-item-icon>
                 <v-list-item-content>
                     <v-list-item-title class="headline mb-1"> Address </v-list-item-title>
