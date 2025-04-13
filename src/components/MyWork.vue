@@ -308,7 +308,7 @@ export default {
 }
 
 .grid-item:hover .project-image,
-.grid-item:hover :deep(.web-thumbnail) {
+.grid-item:hover :deep(.thumbnail) {
   transform: scale(1.1);
 }
 

@@ -145,10 +145,12 @@ export default {
   transition: transform 0.5s ease;
   opacity: 0.9;
   z-index: 1;
+  will-change: transform;
 }
 
 .thumbnail-container:hover .thumbnail {
   opacity: 0.7;
+  transform: scale(1.1);
 }
 
 
