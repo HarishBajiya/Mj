@@ -10,6 +10,20 @@
 
 const projects = [
     {
+        "title": "The Printed Collection | #PrintedVogue | Caprese Bags",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/OczjkKpNVK8?si=2EBg7wG9kagkArnMx",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "A Day in the Life of a Galaxy AI-Powered Professional",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/bk2GgB-npKs?si=OXaNCZ8Uc9KZFl_6",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
         "title": "The Impossible Show: Ritesh Agarwal Uncovers Remarkable Tales of Bharat’s Superheroes",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/GXoIwTV6Rug?si=WPQVB2_DNuCNpi1N",

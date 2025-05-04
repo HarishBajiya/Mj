@@ -10,6 +10,12 @@
 
 const projects = [
     {
+        "title": "Door Tu Jaaye Na - Official Music Video",
+        "image": require("../assets/images/door-tu-jaave-na.jpg"),
+        "link": "https://www.youtube.com/embed/Pg2Hu0cG8TM?si=MniQEcWbkrO5WeTP",
+        "job": "Director of Photography",
+    },
+    {
         "title": "Restoration of Zooni : In conversation with Muzaffar Ali",
         "image": require("../assets/images/zoomi.jpg"),
         "link": "https://www.youtube.com/watch?v=mGfEigAQtDs&ab_channel=AnagramEntertainment",
