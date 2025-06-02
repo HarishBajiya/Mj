@@ -135,6 +135,16 @@ export default {
         return;
       }
       
+      // For direct video files (MP4, etc.), emit event to show modal
+      if (this.videoType === 'direct') {
+        this.$emit('show-modal', {
+          videoUrl: this.videoUrl,
+          videoTitle: this.videoTitle
+        });
+        return;
+      }
+      
+      // For YouTube videos, load inline
       this.isLoaded = true;
       this.$emit('loaded', true);
     },
