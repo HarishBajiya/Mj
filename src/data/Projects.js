@@ -10,6 +10,13 @@
 
 const projects = [
     {
+        "title": "JK Tyre JUMBO HD Series | SCV Tyres",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/p06dQiTWutQ?si=7vBfRK7LtZ9It8Gi",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
         "title": "The Printed Collection | #PrintedVogue | Caprese Bags",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/OczjkKpNVK8?si=2EBg7wG9kagkArnMx",
