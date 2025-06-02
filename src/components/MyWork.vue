@@ -46,11 +46,12 @@
             >
               <div class="video-container">
                 <div class="video-wrapper">
-                  <YouTubePlayer
+                  <VideoPlayer
                     :video-url="project.link"
                     :video-title="project.title"
+                    :custom-thumbnail="project.image"
                     @loaded="loading = false"
-                    icon="mdi-play-circle-outline"
+                    @show-modal="showVideoModal"
                   />
                 </div>
               </div>
@@ -117,18 +118,28 @@
         </template>
       </v-row>
     </v-container>
+
+    <!-- Video Modal -->
+    <VideoModal
+      :is-visible="isModalVisible"
+      :video-url="modalVideoUrl"
+      :video-title="modalVideoTitle"
+      @close="closeVideoModal"
+    />
   </div>
 </template>
 
 <script>
 import webProjects from "../data/Projects";
 import narrativeProjects from "../data/NarrativeProjects";
-import YouTubePlayer from './YouTubePlayer.vue';
+import VideoPlayer from './VideoPlayer.vue';
+import VideoModal from './VideoModal.vue';
 
 export default {
   name: 'MyWork',
   components: {
-    YouTubePlayer
+    VideoPlayer,
+    VideoModal
   },
   data() {
     return {
@@ -138,7 +149,11 @@ export default {
       imageLoaded: false,
       selectedType: 'Web',
       selectedCategory: null,
-      projectTypes: ['Web', 'Narrative']
+      projectTypes: ['Web', 'Narrative'],
+      // Modal state
+      isModalVisible: false,
+      modalVideoUrl: '',
+      modalVideoTitle: ''
     }
   },
   computed: {
@@ -158,6 +173,16 @@ export default {
       setTimeout(() => {
         this.loading = false;
       }, 1000);
+    },
+    showVideoModal(videoData) {
+      this.modalVideoUrl = videoData.videoUrl;
+      this.modalVideoTitle = videoData.videoTitle;
+      this.isModalVisible = true;
+    },
+    closeVideoModal() {
+      this.isModalVisible = false;
+      this.modalVideoUrl = '';
+      this.modalVideoTitle = '';
     }
   },
   watch: {

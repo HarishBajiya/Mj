@@ -10,6 +10,20 @@
 
 const projects = [
     {
+        "title": "Runn TV | Instagram",
+        "image": require("../assets/images/runn_tv_instagram.jpg"),
+        "link": "https://www.instagram.com/reel/DKSXWDmA_sM/?igsh=MWxpYjB3eDJ6empiZg==",
+        "category": "Commercial",
+        "job": "Director of Photography",
+    },
+    {
+        "title": "Runn TV | LinkedIn",
+        "image": require("../assets/images/runn_tv_linkedin.png"),
+        "link": "https://www.linkedin.com/posts/runntv_runntv-kabtakkarogescroll-ottscrolling-activity-7333810607428685825-etrO?rcm=ACoAACKTxjgBSprn1Jp_n-1C8jiVdRsXAWEg3O0",
+        "category": "Commercial",
+        "job": "Director of Photography",
+    },
+    {
         "title": "JK Tyre JUMBO HD Series | SCV Tyres",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/p06dQiTWutQ?si=7vBfRK7LtZ9It8Gi",

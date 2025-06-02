@@ -16,7 +16,7 @@ const projects = [
         "job": "Director of Photography",
     },
     {
-        "title": "Restoration of Zooni : In conversation with Muzaffar Ali",
+        "title": "Restoration of Zooni: In conversation with Muzaffar Ali",
         "image": require("../assets/images/zoomi.jpg"),
         "link": "https://www.youtube.com/watch?v=mGfEigAQtDs&ab_channel=AnagramEntertainment",
         "job": "Director of Photography",
