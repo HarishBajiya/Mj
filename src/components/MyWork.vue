@@ -46,11 +46,11 @@
             >
               <div class="video-container">
                 <div class="video-wrapper">
-                  <YouTubePlayer
+                  <VideoPlayer
                     :video-url="project.link"
                     :video-title="project.title"
+                    :custom-thumbnail="project.image"
                     @loaded="loading = false"
-                    icon="mdi-play-circle-outline"
                   />
                 </div>
               </div>
@@ -123,12 +123,12 @@
 <script>
 import webProjects from "../data/Projects";
 import narrativeProjects from "../data/NarrativeProjects";
-import YouTubePlayer from './YouTubePlayer.vue';
+import VideoPlayer from './VideoPlayer.vue';
 
 export default {
   name: 'MyWork',
   components: {
-    YouTubePlayer
+    VideoPlayer
   },
   data() {
     return {
