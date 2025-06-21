@@ -10,6 +10,13 @@
 
 const projects = [
     {
+        "title": "Himalaya",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/yQKCM8xlJCw?si=0UoBeqpIoR1lEQby",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
         "title": "Runn TV | Instagram",
         "image": require("../assets/images/runn_tv_instagram.jpg"),
         "link": "https://www.instagram.com/reel/DKSXWDmA_sM/?igsh=MWxpYjB3eDJ6empiZg==",
