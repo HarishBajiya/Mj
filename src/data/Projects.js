@@ -10,9 +10,51 @@
 
 const projects = [
     {
+        "title": "Himalaya Serum Body Lotion",
+        "image": require("../assets/images/LOTION.png"),
+        "link": "https://www.youtube.com/embed/2HWtBbeRKiU?si=WUwszJLfcaKe-c28",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Himalaya LIP CARE",
+        "image": require("../assets/images/LIP CARE.png"),
+        "link": "https://www.youtube.com/embed/hQGzup27eqc?si=mzlW0Kl3dOUCqi38",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Zupee Ludo Ft Harsh Beniwal",
+        "image": require("../assets/images/Zupee 1.png"),
+        "link": "https://www.youtube.com/embed/6-vD5gW7ac0?si=tCkufKnBryaUvgUy",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
         "title": "Himalaya",
         "image": require("../assets/images/hyatt.png"),
         "link": "https://www.youtube.com/embed/yQKCM8xlJCw?si=0UoBeqpIoR1lEQby",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Zupee Ludo Ft Harsh Beniwal",
+        "image": require("../assets/images/Zupee 4.png"),
+        "link": "https://www.youtube.com/embed/ki60lIJRqOk?si=8AvKKAm_okb_Rka_",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Zupee Ludo Ft Harsh Beniwal",
+        "image": require("../assets/images/Zupee 3.png"),
+        "link": "https://www.youtube.com/embed/qU0YU0I2x7I?si=cmNM06LMNDlm1GBV",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Zupee Ludo Ft Harsh Beniwal",
+        "image": require("../assets/images/Zupee 2.png"),
+        "link": "https://www.youtube.com/embed/bR2GF-0AUQs?si=9pOPpcYMzxmp9CCP",
         "category": "Commercial",
         "job": "Director of Photography"
     },
@@ -22,6 +64,13 @@ const projects = [
         "link": "https://www.instagram.com/reel/DKSXWDmA_sM/?igsh=MWxpYjB3eDJ6empiZg==",
         "category": "Commercial",
         "job": "Director of Photography",
+    },
+    {
+        "title": "Hindustan Times Celebrates 100 Years",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/rqbpR5O9gD8?si=UQJTI6rGHAkiRlL5",
+        "category": "Commercial",
+        "job": "Director of Photography"
     },
     {
         "title": "Runn TV | LinkedIn",
@@ -65,13 +114,7 @@ const projects = [
         "category": "Commercial",
         "job": "Cinematographer"
     },
-    {
-        "title": "Hindustan Times Celebrates 100 Years",
-        "image": require("../assets/images/hyatt.png"),
-        "link": "https://www.youtube.com/embed/rqbpR5O9gD8?si=UQJTI6rGHAkiRlL5",
-        "category": "Commercial",
-        "job": "Director of Photography"
-    },
+
     {
         "title": "Dabur India | World Heart Day",
         "image": require("../assets/images/hyatt.png"),
